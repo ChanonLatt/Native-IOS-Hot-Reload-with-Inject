@@ -13,6 +13,126 @@
 		04CEDB84282E531800F2287A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEDB82282E531800F2287A /* Main.storyboard */; };
 		04CEDB86282E531B00F2287A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEDB85282E531B00F2287A /* Assets.xcassets */; };
 		04CEDB89282E531B00F2287A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEDB87282E531B00F2287A /* LaunchScreen.storyboard */; };
+		04CEDC14282E53F000F2287A /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB94282E53EF00F2287A /* ConstraintMultiplierTarget.swift */; };
+		04CEDC15282E53F000F2287A /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB95282E53EF00F2287A /* LayoutConstraintItem.swift */; };
+		04CEDC16282E53F000F2287A /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB96282E53EF00F2287A /* ConstraintMakerPrioritizable.swift */; };
+		04CEDC17282E53F000F2287A /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB97282E53EF00F2287A /* ConstraintDescription.swift */; };
+		04CEDC18282E53F000F2287A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB98282E53EF00F2287A /* ConstraintAttributes.swift */; };
+		04CEDC19282E53F000F2287A /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB99282E53EF00F2287A /* ConstraintViewDSL.swift */; };
+		04CEDC1A282E53F000F2287A /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB9A282E53EF00F2287A /* ConstraintPriorityTarget.swift */; };
+		04CEDC1B282E53F000F2287A /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB9B282E53EF00F2287A /* ConstraintInsets.swift */; };
+		04CEDC1C282E53F000F2287A /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB9C282E53EF00F2287A /* ConstraintMakerFinalizable.swift */; };
+		04CEDC1D282E53F000F2287A /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB9D282E53EF00F2287A /* ConstraintDSL.swift */; };
+		04CEDC1E282E53F000F2287A /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB9E282E53EF00F2287A /* ConstraintMakerExtendable.swift */; };
+		04CEDC1F282E53F000F2287A /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDB9F282E53EF00F2287A /* ConstraintPriority.swift */; };
+		04CEDC20282E53F000F2287A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA0282E53EF00F2287A /* ConstraintInsetTarget.swift */; };
+		04CEDC21282E53F000F2287A /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA1282E53EF00F2287A /* ConstraintDirectionalInsetTarget.swift */; };
+		04CEDC22282E53F000F2287A /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA2282E53EF00F2287A /* ConstraintMakerRelatable+Extensions.swift */; };
+		04CEDC23282E53F000F2287A /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA3282E53EF00F2287A /* ConstraintConfig.swift */; };
+		04CEDC24282E53F000F2287A /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA4282E53EF00F2287A /* UILayoutSupport+Extensions.swift */; };
+		04CEDC25282E53F000F2287A /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA5282E53EF00F2287A /* ConstraintView.swift */; };
+		04CEDC26282E53F000F2287A /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA6282E53EF00F2287A /* ConstraintLayoutGuide.swift */; };
+		04CEDC27282E53F000F2287A /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA7282E53EF00F2287A /* ConstraintLayoutSupport.swift */; };
+		04CEDC28282E53F000F2287A /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA8282E53EF00F2287A /* Typealiases.swift */; };
+		04CEDC29282E53F000F2287A /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBA9282E53EF00F2287A /* ConstraintConstantTarget.swift */; };
+		04CEDC2A282E53F000F2287A /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBAA282E53EF00F2287A /* ConstraintOffsetTarget.swift */; };
+		04CEDC2B282E53F000F2287A /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBAB282E53EF00F2287A /* ConstraintMakerEditable.swift */; };
+		04CEDC2C282E53F000F2287A /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBAC282E53EF00F2287A /* ConstraintMaker.swift */; };
+		04CEDC2D282E53F000F2287A /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBAD282E53EF00F2287A /* ConstraintRelation.swift */; };
+		04CEDC2E282E53F000F2287A /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBAE282E53EF00F2287A /* ConstraintLayoutGuideDSL.swift */; };
+		04CEDC2F282E53F000F2287A /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBAF282E53EF00F2287A /* ConstraintView+Extensions.swift */; };
+		04CEDC30282E53F000F2287A /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB0282E53EF00F2287A /* ConstraintItem.swift */; };
+		04CEDC31282E53F000F2287A /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB1282E53EF00F2287A /* Constraint.swift */; };
+		04CEDC32282E53F000F2287A /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB2282E53EF00F2287A /* Debugging.swift */; };
+		04CEDC33282E53F000F2287A /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB3282E53EF00F2287A /* ConstraintRelatableTarget.swift */; };
+		04CEDC34282E53F000F2287A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB4282E53EF00F2287A /* LayoutConstraint.swift */; };
+		04CEDC35282E53F000F2287A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB5282E53EF00F2287A /* ConstraintLayoutGuide+Extensions.swift */; };
+		04CEDC36282E53F000F2287A /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB6282E53EF00F2287A /* ConstraintDirectionalInsets.swift */; };
+		04CEDC37282E53F000F2287A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB7282E53EF00F2287A /* ConstraintLayoutSupportDSL.swift */; };
+		04CEDC38282E53F000F2287A /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBB8282E53EF00F2287A /* ConstraintMakerRelatable.swift */; };
+		04CEDC39282E53F000F2287A /* UIView+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBBB282E53F000F2287A /* UIView+UIKitUtils.swift */; };
+		04CEDC3A282E53F000F2287A /* UIViewController+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBBC282E53F000F2287A /* UIViewController+UIKitUtils.swift */; };
+		04CEDC3B282E53F000F2287A /* CGAffineTransform+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBBD282E53F000F2287A /* CGAffineTransform+UIKitUtils.swift */; };
+		04CEDC3C282E53F000F2287A /* HapticFeedbackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBBE282E53F000F2287A /* HapticFeedbackable.swift */; };
+		04CEDC3D282E53F000F2287A /* UIImage+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBBF282E53F000F2287A /* UIImage+UIKitUtils.swift */; };
+		04CEDC3E282E53F000F2287A /* UIColor+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC0282E53F000F2287A /* UIColor+UIKitUtils.swift */; };
+		04CEDC3F282E53F000F2287A /* UIControl+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC1282E53F000F2287A /* UIControl+UIKitUtils.swift */; };
+		04CEDC40282E53F000F2287A /* ControllerInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC2282E53F000F2287A /* ControllerInformation.swift */; };
+		04CEDC41282E53F000F2287A /* UIDevice+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC3282E53F000F2287A /* UIDevice+UIKitUtils.swift */; };
+		04CEDC42282E53F000F2287A /* UIGestureRecognizer+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC4282E53F000F2287A /* UIGestureRecognizer+UIKitUtils.swift */; };
+		04CEDC43282E53F000F2287A /* UIBarButtonItem+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC5282E53F000F2287A /* UIBarButtonItem+UIKitUtils.swift */; };
+		04CEDC44282E53F000F2287A /* UITableView+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC6282E53F000F2287A /* UITableView+UIKitUtils.swift */; };
+		04CEDC45282E53F000F2287A /* UIBezierPath+ContinuousCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC7282E53F000F2287A /* UIBezierPath+ContinuousCorner.swift */; };
+		04CEDC46282E53F000F2287A /* UICollectionView+UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC8282E53F000F2287A /* UICollectionView+UIKitUtils.swift */; };
+		04CEDC47282E53F000F2287A /* ActionWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBC9282E53F000F2287A /* ActionWrapper.swift */; };
+		04CEDC48282E53F000F2287A /* UIToolbarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBCB282E53F000F2287A /* UIToolbarAppearance+Chainable.swift */; };
+		04CEDC49282E53F000F2287A /* UIListContentConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBCC282E53F000F2287A /* UIListContentConfiguration+Chainable.swift */; };
+		04CEDC4A282E53F000F2287A /* UIBackgroundConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBCD282E53F000F2287A /* UIBackgroundConfiguration+Chainable.swift */; };
+		04CEDC4B282E53F000F2287A /* UINavigationBarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBCE282E53F000F2287A /* UINavigationBarAppearance+Chainable.swift */; };
+		04CEDC4C282E53F000F2287A /* UITabBarItemAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBCF282E53F000F2287A /* UITabBarItemAppearance+Chainable.swift */; };
+		04CEDC4D282E53F000F2287A /* UITabBarItemStateAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD0282E53F000F2287A /* UITabBarItemStateAppearance+Chainable.swift */; };
+		04CEDC4E282E53F000F2287A /* UIButtonConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD1282E53F000F2287A /* UIButtonConfiguration+Chainable.swift */; };
+		04CEDC4F282E53F000F2287A /* UIBarButtonItemAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD2282E53F000F2287A /* UIBarButtonItemAppearance+Chainable.swift */; };
+		04CEDC50282E53F000F2287A /* UISwipeActionsConfiguration+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD3282E53F000F2287A /* UISwipeActionsConfiguration+Chainable.swift */; };
+		04CEDC51282E53F000F2287A /* UIContextualAction+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD4282E53F000F2287A /* UIContextualAction+Chainable.swift */; };
+		04CEDC52282E53F000F2287A /* UIBarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD5282E53F000F2287A /* UIBarAppearance+Chainable.swift */; };
+		04CEDC53282E53F000F2287A /* UIBarButtonItemStateAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD6282E53F000F2287A /* UIBarButtonItemStateAppearance+Chainable.swift */; };
+		04CEDC54282E53F000F2287A /* UITabBarAppearance+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD7282E53F000F2287A /* UITabBarAppearance+Chainable.swift */; };
+		04CEDC55282E53F000F2287A /* UITableViewController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBD9282E53F000F2287A /* UITableViewController+Chainable.swift */; };
+		04CEDC56282E53F000F2287A /* UISplitViewController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBDA282E53F000F2287A /* UISplitViewController+Chainable.swift */; };
+		04CEDC57282E53F000F2287A /* UIPageViewController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBDB282E53F000F2287A /* UIPageViewController+Chainable.swift */; };
+		04CEDC58282E53F000F2287A /* UICollectionViewController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBDC282E53F000F2287A /* UICollectionViewController+Chainable.swift */; };
+		04CEDC59282E53F000F2287A /* UIAlertController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBDD282E53F000F2287A /* UIAlertController+Chainable.swift */; };
+		04CEDC5A282E53F000F2287A /* UINavigationController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBDE282E53F000F2287A /* UINavigationController+Chainable.swift */; };
+		04CEDC5B282E53F000F2287A /* UISearchController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBDF282E53F000F2287A /* UISearchController+Chainable.swift */; };
+		04CEDC5C282E53F000F2287A /* UIViewController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE0282E53F000F2287A /* UIViewController+Chainable.swift */; };
+		04CEDC5D282E53F000F2287A /* UITabBarController+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE1282E53F000F2287A /* UITabBarController+Chainable.swift */; };
+		04CEDC5E282E53F000F2287A /* ChainableUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE2282E53F000F2287A /* ChainableUIKit.swift */; };
+		04CEDC5F282E53F000F2287A /* UISegmentedControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE4282E53F000F2287A /* UISegmentedControl+Chainable.swift */; };
+		04CEDC60282E53F000F2287A /* UINavigationBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE5282E53F000F2287A /* UINavigationBar+Chainable.swift */; };
+		04CEDC61282E53F000F2287A /* UITableViewCell+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE6282E53F000F2287A /* UITableViewCell+Chainable.swift */; };
+		04CEDC62282E53F000F2287A /* UIStepper+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE7282E53F000F2287A /* UIStepper+Chainable.swift */; };
+		04CEDC63282E53F000F2287A /* UITabBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE8282E53F000F2287A /* UITabBar+Chainable.swift */; };
+		04CEDC64282E53F000F2287A /* UIPageControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE9282E53F000F2287A /* UIPageControl+Chainable.swift */; };
+		04CEDC65282E53F000F2287A /* UIToolbar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBEA282E53F000F2287A /* UIToolbar+Chainable.swift */; };
+		04CEDC66282E53F000F2287A /* UITextView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBEB282E53F000F2287A /* UITextView+Chainable.swift */; };
+		04CEDC67282E53F000F2287A /* UIBarButtonItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBEC282E53F000F2287A /* UIBarButtonItem+Chainable.swift */; };
+		04CEDC68282E53F000F2287A /* UIStackView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBED282E53F000F2287A /* UIStackView+Chainable.swift */; };
+		04CEDC69282E53F000F2287A /* UICollectionView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBEE282E53F000F2287A /* UICollectionView+Chainable.swift */; };
+		04CEDC6A282E53F000F2287A /* UINavigationItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBEF282E53F000F2287A /* UINavigationItem+Chainable.swift */; };
+		04CEDC6B282E53F000F2287A /* UITextField+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF0282E53F000F2287A /* UITextField+Chainable.swift */; };
+		04CEDC6C282E53F000F2287A /* UITextInput+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF1282E53F000F2287A /* UITextInput+Chainable.swift */; };
+		04CEDC6D282E53F000F2287A /* UITextInputTraits+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF2282E53F000F2287A /* UITextInputTraits+Chainable.swift */; };
+		04CEDC6E282E53F000F2287A /* UIScrollView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF3282E53F000F2287A /* UIScrollView+Chainable.swift */; };
+		04CEDC6F282E53F000F2287A /* UICollectionViewCell+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF4282E53F000F2287A /* UICollectionViewCell+Chainable.swift */; };
+		04CEDC70282E53F000F2287A /* UITableView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF5282E53F000F2287A /* UITableView+Chainable.swift */; };
+		04CEDC71282E53F000F2287A /* UISearchBar+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF6282E53F000F2287A /* UISearchBar+Chainable.swift */; };
+		04CEDC72282E53F000F2287A /* UIDatePicker+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF7282E53F000F2287A /* UIDatePicker+Chainable.swift */; };
+		04CEDC73282E53F000F2287A /* UISearchTextField+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF8282E53F000F2287A /* UISearchTextField+Chainable.swift */; };
+		04CEDC74282E53F000F2287A /* UITabBarItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBF9282E53F000F2287A /* UITabBarItem+Chainable.swift */; };
+		04CEDC75282E53F000F2287A /* UIImageView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBFA282E53F000F2287A /* UIImageView+Chainable.swift */; };
+		04CEDC76282E53F000F2287A /* UIResponder+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBFB282E53F000F2287A /* UIResponder+Chainable.swift */; };
+		04CEDC77282E53F000F2287A /* UIProgressView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBFC282E53F000F2287A /* UIProgressView+Chainable.swift */; };
+		04CEDC78282E53F000F2287A /* UISwitch+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBFD282E53F000F2287A /* UISwitch+Chainable.swift */; };
+		04CEDC79282E53F000F2287A /* UILabel+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBFE282E53F000F2287A /* UILabel+Chainable.swift */; };
+		04CEDC7A282E53F000F2287A /* UIButton+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBFF282E53F000F2287A /* UIButton+Chainable.swift */; };
+		04CEDC7B282E53F000F2287A /* UIWindow+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC00282E53F000F2287A /* UIWindow+Chainable.swift */; };
+		04CEDC7C282E53F100F2287A /* UIGestureRecognizer+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC01282E53F000F2287A /* UIGestureRecognizer+Chainable.swift */; };
+		04CEDC7D282E53F100F2287A /* UIBarItem+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC02282E53F000F2287A /* UIBarItem+Chainable.swift */; };
+		04CEDC7E282E53F100F2287A /* UIControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC03282E53F000F2287A /* UIControl+Chainable.swift */; };
+		04CEDC7F282E53F100F2287A /* UIActivityIndicatorView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC04282E53F000F2287A /* UIActivityIndicatorView+Chainable.swift */; };
+		04CEDC80282E53F100F2287A /* UIKeyInput+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC05282E53F000F2287A /* UIKeyInput+Chainable.swift */; };
+		04CEDC81282E53F100F2287A /* UIView+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC06282E53F000F2287A /* UIView+Chainable.swift */; };
+		04CEDC82282E53F100F2287A /* UISlider+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC07282E53F000F2287A /* UISlider+Chainable.swift */; };
+		04CEDC83282E53F100F2287A /* StackBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC0B282E53F000F2287A /* StackBuilder.swift */; };
+		04CEDC84282E53F100F2287A /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC0C282E53F000F2287A /* Stacks.swift */; };
+		04CEDC85282E53F100F2287A /* ScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC0E282E53F000F2287A /* ScrollViewBuilder.swift */; };
+		04CEDC86282E53F100F2287A /* ScrollStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC0F282E53F000F2287A /* ScrollStacks.swift */; };
+		04CEDC87282E53F100F2287A /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC11282E53F000F2287A /* Spacer.swift */; };
+		04CEDC88282E53F100F2287A /* UIViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC12282E53F000F2287A /* UIViewHelpers.swift */; };
+		04CEDC89282E53F100F2287A /* UIViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDC13282E53F000F2287A /* UIViewBuilder.swift */; };
+		04D8E4022847D71E00C8CACB /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 04D8E4012847D71E00C8CACB /* Inject */; };
+		04D8E4042847D89A00C8CACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8E4032847D89A00C8CACB /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +144,125 @@
 		04CEDB85282E531B00F2287A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CEDB88282E531B00F2287A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CEDB8A282E531B00F2287A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEDB94282E53EF00F2287A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		04CEDB95282E53EF00F2287A /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		04CEDB96282E53EF00F2287A /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		04CEDB97282E53EF00F2287A /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		04CEDB98282E53EF00F2287A /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		04CEDB99282E53EF00F2287A /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		04CEDB9A282E53EF00F2287A /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		04CEDB9B282E53EF00F2287A /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		04CEDB9C282E53EF00F2287A /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		04CEDB9D282E53EF00F2287A /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		04CEDB9E282E53EF00F2287A /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		04CEDB9F282E53EF00F2287A /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		04CEDBA0282E53EF00F2287A /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		04CEDBA1282E53EF00F2287A /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		04CEDBA2282E53EF00F2287A /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		04CEDBA3282E53EF00F2287A /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		04CEDBA4282E53EF00F2287A /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		04CEDBA5282E53EF00F2287A /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		04CEDBA6282E53EF00F2287A /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		04CEDBA7282E53EF00F2287A /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		04CEDBA8282E53EF00F2287A /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		04CEDBA9282E53EF00F2287A /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		04CEDBAA282E53EF00F2287A /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		04CEDBAB282E53EF00F2287A /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		04CEDBAC282E53EF00F2287A /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		04CEDBAD282E53EF00F2287A /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		04CEDBAE282E53EF00F2287A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		04CEDBAF282E53EF00F2287A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		04CEDBB0282E53EF00F2287A /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		04CEDBB1282E53EF00F2287A /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		04CEDBB2282E53EF00F2287A /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		04CEDBB3282E53EF00F2287A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		04CEDBB4282E53EF00F2287A /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		04CEDBB5282E53EF00F2287A /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		04CEDBB6282E53EF00F2287A /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		04CEDBB7282E53EF00F2287A /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		04CEDBB8282E53EF00F2287A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		04CEDBBB282E53F000F2287A /* UIView+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBBC282E53F000F2287A /* UIViewController+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBBD282E53F000F2287A /* CGAffineTransform+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBBE282E53F000F2287A /* HapticFeedbackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticFeedbackable.swift; sourceTree = "<group>"; };
+		04CEDBBF282E53F000F2287A /* UIImage+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC0282E53F000F2287A /* UIColor+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC1282E53F000F2287A /* UIControl+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC2282E53F000F2287A /* ControllerInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerInformation.swift; sourceTree = "<group>"; };
+		04CEDBC3282E53F000F2287A /* UIDevice+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC4282E53F000F2287A /* UIGestureRecognizer+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC5282E53F000F2287A /* UIBarButtonItem+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC6282E53F000F2287A /* UITableView+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC7282E53F000F2287A /* UIBezierPath+ContinuousCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+ContinuousCorner.swift"; sourceTree = "<group>"; };
+		04CEDBC8282E53F000F2287A /* UICollectionView+UIKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+UIKitUtils.swift"; sourceTree = "<group>"; };
+		04CEDBC9282E53F000F2287A /* ActionWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionWrapper.swift; sourceTree = "<group>"; };
+		04CEDBCB282E53F000F2287A /* UIToolbarAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbarAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBCC282E53F000F2287A /* UIListContentConfiguration+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIListContentConfiguration+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBCD282E53F000F2287A /* UIBackgroundConfiguration+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBackgroundConfiguration+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBCE282E53F000F2287A /* UINavigationBarAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBarAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBCF282E53F000F2287A /* UITabBarItemAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItemAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD0282E53F000F2287A /* UITabBarItemStateAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItemStateAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD1282E53F000F2287A /* UIButtonConfiguration+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButtonConfiguration+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD2282E53F000F2287A /* UIBarButtonItemAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItemAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD3282E53F000F2287A /* UISwipeActionsConfiguration+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwipeActionsConfiguration+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD4282E53F000F2287A /* UIContextualAction+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIContextualAction+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD5282E53F000F2287A /* UIBarAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD6282E53F000F2287A /* UIBarButtonItemStateAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItemStateAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD7282E53F000F2287A /* UITabBarAppearance+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarAppearance+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBD9282E53F000F2287A /* UITableViewController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBDA282E53F000F2287A /* UISplitViewController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISplitViewController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBDB282E53F000F2287A /* UIPageViewController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBDC282E53F000F2287A /* UICollectionViewController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBDD282E53F000F2287A /* UIAlertController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBDE282E53F000F2287A /* UINavigationController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBDF282E53F000F2287A /* UISearchController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE0282E53F000F2287A /* UIViewController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE1282E53F000F2287A /* UITabBarController+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE2282E53F000F2287A /* ChainableUIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainableUIKit.swift; sourceTree = "<group>"; };
+		04CEDBE4282E53F000F2287A /* UISegmentedControl+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE5282E53F000F2287A /* UINavigationBar+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE6282E53F000F2287A /* UITableViewCell+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE7282E53F000F2287A /* UIStepper+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE8282E53F000F2287A /* UITabBar+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBE9282E53F000F2287A /* UIPageControl+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBEA282E53F000F2287A /* UIToolbar+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBEB282E53F000F2287A /* UITextView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBEC282E53F000F2287A /* UIBarButtonItem+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBED282E53F000F2287A /* UIStackView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBEE282E53F000F2287A /* UICollectionView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBEF282E53F000F2287A /* UINavigationItem+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF0282E53F000F2287A /* UITextField+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF1282E53F000F2287A /* UITextInput+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextInput+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF2282E53F000F2287A /* UITextInputTraits+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextInputTraits+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF3282E53F000F2287A /* UIScrollView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF4282E53F000F2287A /* UICollectionViewCell+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF5282E53F000F2287A /* UITableView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF6282E53F000F2287A /* UISearchBar+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF7282E53F000F2287A /* UIDatePicker+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF8282E53F000F2287A /* UISearchTextField+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBF9282E53F000F2287A /* UITabBarItem+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBFA282E53F000F2287A /* UIImageView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBFB282E53F000F2287A /* UIResponder+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBFC282E53F000F2287A /* UIProgressView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBFD282E53F000F2287A /* UISwitch+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBFE282E53F000F2287A /* UILabel+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDBFF282E53F000F2287A /* UIButton+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC00282E53F000F2287A /* UIWindow+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC01282E53F000F2287A /* UIGestureRecognizer+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC02282E53F000F2287A /* UIBarItem+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarItem+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC03282E53F000F2287A /* UIControl+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC04282E53F000F2287A /* UIActivityIndicatorView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC05282E53F000F2287A /* UIKeyInput+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKeyInput+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC06282E53F000F2287A /* UIView+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC07282E53F000F2287A /* UISlider+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Chainable.swift"; sourceTree = "<group>"; };
+		04CEDC0B282E53F000F2287A /* StackBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackBuilder.swift; sourceTree = "<group>"; };
+		04CEDC0C282E53F000F2287A /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		04CEDC0E282E53F000F2287A /* ScrollViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewBuilder.swift; sourceTree = "<group>"; };
+		04CEDC0F282E53F000F2287A /* ScrollStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollStacks.swift; sourceTree = "<group>"; };
+		04CEDC11282E53F000F2287A /* Spacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
+		04CEDC12282E53F000F2287A /* UIViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelpers.swift; sourceTree = "<group>"; };
+		04CEDC13282E53F000F2287A /* UIViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBuilder.swift; sourceTree = "<group>"; };
+		04D8E4032847D89A00C8CACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D8E4022847D71E00C8CACB /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +296,222 @@
 		04CEDB7B282E531800F2287A /* IOS Inject + Injectionlll */ = {
 			isa = PBXGroup;
 			children = (
+				04CEDBB9282E53F000F2287A /* ChainableUIKit */,
+				04CEDB93282E53EF00F2287A /* SnapKit */,
+				04CEDC08282E53F000F2287A /* StackKit */,
 				04CEDB7C282E531800F2287A /* AppDelegate.swift */,
 				04CEDB7E282E531800F2287A /* SceneDelegate.swift */,
 				04CEDB80282E531800F2287A /* ViewController.swift */,
+				04D8E4032847D89A00C8CACB /* CustomView.swift */,
 				04CEDB82282E531800F2287A /* Main.storyboard */,
 				04CEDB85282E531B00F2287A /* Assets.xcassets */,
 				04CEDB87282E531B00F2287A /* LaunchScreen.storyboard */,
 				04CEDB8A282E531B00F2287A /* Info.plist */,
 			);
 			path = "IOS Inject + Injectionlll";
+			sourceTree = "<group>";
+		};
+		04CEDB93282E53EF00F2287A /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDB94282E53EF00F2287A /* ConstraintMultiplierTarget.swift */,
+				04CEDB95282E53EF00F2287A /* LayoutConstraintItem.swift */,
+				04CEDB96282E53EF00F2287A /* ConstraintMakerPrioritizable.swift */,
+				04CEDB97282E53EF00F2287A /* ConstraintDescription.swift */,
+				04CEDB98282E53EF00F2287A /* ConstraintAttributes.swift */,
+				04CEDB99282E53EF00F2287A /* ConstraintViewDSL.swift */,
+				04CEDB9A282E53EF00F2287A /* ConstraintPriorityTarget.swift */,
+				04CEDB9B282E53EF00F2287A /* ConstraintInsets.swift */,
+				04CEDB9C282E53EF00F2287A /* ConstraintMakerFinalizable.swift */,
+				04CEDB9D282E53EF00F2287A /* ConstraintDSL.swift */,
+				04CEDB9E282E53EF00F2287A /* ConstraintMakerExtendable.swift */,
+				04CEDB9F282E53EF00F2287A /* ConstraintPriority.swift */,
+				04CEDBA0282E53EF00F2287A /* ConstraintInsetTarget.swift */,
+				04CEDBA1282E53EF00F2287A /* ConstraintDirectionalInsetTarget.swift */,
+				04CEDBA2282E53EF00F2287A /* ConstraintMakerRelatable+Extensions.swift */,
+				04CEDBA3282E53EF00F2287A /* ConstraintConfig.swift */,
+				04CEDBA4282E53EF00F2287A /* UILayoutSupport+Extensions.swift */,
+				04CEDBA5282E53EF00F2287A /* ConstraintView.swift */,
+				04CEDBA6282E53EF00F2287A /* ConstraintLayoutGuide.swift */,
+				04CEDBA7282E53EF00F2287A /* ConstraintLayoutSupport.swift */,
+				04CEDBA8282E53EF00F2287A /* Typealiases.swift */,
+				04CEDBA9282E53EF00F2287A /* ConstraintConstantTarget.swift */,
+				04CEDBAA282E53EF00F2287A /* ConstraintOffsetTarget.swift */,
+				04CEDBAB282E53EF00F2287A /* ConstraintMakerEditable.swift */,
+				04CEDBAC282E53EF00F2287A /* ConstraintMaker.swift */,
+				04CEDBAD282E53EF00F2287A /* ConstraintRelation.swift */,
+				04CEDBAE282E53EF00F2287A /* ConstraintLayoutGuideDSL.swift */,
+				04CEDBAF282E53EF00F2287A /* ConstraintView+Extensions.swift */,
+				04CEDBB0282E53EF00F2287A /* ConstraintItem.swift */,
+				04CEDBB1282E53EF00F2287A /* Constraint.swift */,
+				04CEDBB2282E53EF00F2287A /* Debugging.swift */,
+				04CEDBB3282E53EF00F2287A /* ConstraintRelatableTarget.swift */,
+				04CEDBB4282E53EF00F2287A /* LayoutConstraint.swift */,
+				04CEDBB5282E53EF00F2287A /* ConstraintLayoutGuide+Extensions.swift */,
+				04CEDBB6282E53EF00F2287A /* ConstraintDirectionalInsets.swift */,
+				04CEDBB7282E53EF00F2287A /* ConstraintLayoutSupportDSL.swift */,
+				04CEDBB8282E53EF00F2287A /* ConstraintMakerRelatable.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		04CEDBB9282E53F000F2287A /* ChainableUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDBBA282E53F000F2287A /* UIKitUtils */,
+				04CEDBCA282E53F000F2287A /* Appearance */,
+				04CEDBD8282E53F000F2287A /* Controller */,
+				04CEDBE2282E53F000F2287A /* ChainableUIKit.swift */,
+				04CEDBE3282E53F000F2287A /* View */,
+			);
+			path = ChainableUIKit;
+			sourceTree = "<group>";
+		};
+		04CEDBBA282E53F000F2287A /* UIKitUtils */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDBBB282E53F000F2287A /* UIView+UIKitUtils.swift */,
+				04CEDBBC282E53F000F2287A /* UIViewController+UIKitUtils.swift */,
+				04CEDBBD282E53F000F2287A /* CGAffineTransform+UIKitUtils.swift */,
+				04CEDBBE282E53F000F2287A /* HapticFeedbackable.swift */,
+				04CEDBBF282E53F000F2287A /* UIImage+UIKitUtils.swift */,
+				04CEDBC0282E53F000F2287A /* UIColor+UIKitUtils.swift */,
+				04CEDBC1282E53F000F2287A /* UIControl+UIKitUtils.swift */,
+				04CEDBC2282E53F000F2287A /* ControllerInformation.swift */,
+				04CEDBC3282E53F000F2287A /* UIDevice+UIKitUtils.swift */,
+				04CEDBC4282E53F000F2287A /* UIGestureRecognizer+UIKitUtils.swift */,
+				04CEDBC5282E53F000F2287A /* UIBarButtonItem+UIKitUtils.swift */,
+				04CEDBC6282E53F000F2287A /* UITableView+UIKitUtils.swift */,
+				04CEDBC7282E53F000F2287A /* UIBezierPath+ContinuousCorner.swift */,
+				04CEDBC8282E53F000F2287A /* UICollectionView+UIKitUtils.swift */,
+				04CEDBC9282E53F000F2287A /* ActionWrapper.swift */,
+			);
+			path = UIKitUtils;
+			sourceTree = "<group>";
+		};
+		04CEDBCA282E53F000F2287A /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDBCB282E53F000F2287A /* UIToolbarAppearance+Chainable.swift */,
+				04CEDBCC282E53F000F2287A /* UIListContentConfiguration+Chainable.swift */,
+				04CEDBCD282E53F000F2287A /* UIBackgroundConfiguration+Chainable.swift */,
+				04CEDBCE282E53F000F2287A /* UINavigationBarAppearance+Chainable.swift */,
+				04CEDBCF282E53F000F2287A /* UITabBarItemAppearance+Chainable.swift */,
+				04CEDBD0282E53F000F2287A /* UITabBarItemStateAppearance+Chainable.swift */,
+				04CEDBD1282E53F000F2287A /* UIButtonConfiguration+Chainable.swift */,
+				04CEDBD2282E53F000F2287A /* UIBarButtonItemAppearance+Chainable.swift */,
+				04CEDBD3282E53F000F2287A /* UISwipeActionsConfiguration+Chainable.swift */,
+				04CEDBD4282E53F000F2287A /* UIContextualAction+Chainable.swift */,
+				04CEDBD5282E53F000F2287A /* UIBarAppearance+Chainable.swift */,
+				04CEDBD6282E53F000F2287A /* UIBarButtonItemStateAppearance+Chainable.swift */,
+				04CEDBD7282E53F000F2287A /* UITabBarAppearance+Chainable.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		04CEDBD8282E53F000F2287A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDBD9282E53F000F2287A /* UITableViewController+Chainable.swift */,
+				04CEDBDA282E53F000F2287A /* UISplitViewController+Chainable.swift */,
+				04CEDBDB282E53F000F2287A /* UIPageViewController+Chainable.swift */,
+				04CEDBDC282E53F000F2287A /* UICollectionViewController+Chainable.swift */,
+				04CEDBDD282E53F000F2287A /* UIAlertController+Chainable.swift */,
+				04CEDBDE282E53F000F2287A /* UINavigationController+Chainable.swift */,
+				04CEDBDF282E53F000F2287A /* UISearchController+Chainable.swift */,
+				04CEDBE0282E53F000F2287A /* UIViewController+Chainable.swift */,
+				04CEDBE1282E53F000F2287A /* UITabBarController+Chainable.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04CEDBE3282E53F000F2287A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDBE4282E53F000F2287A /* UISegmentedControl+Chainable.swift */,
+				04CEDBE5282E53F000F2287A /* UINavigationBar+Chainable.swift */,
+				04CEDBE6282E53F000F2287A /* UITableViewCell+Chainable.swift */,
+				04CEDBE7282E53F000F2287A /* UIStepper+Chainable.swift */,
+				04CEDBE8282E53F000F2287A /* UITabBar+Chainable.swift */,
+				04CEDBE9282E53F000F2287A /* UIPageControl+Chainable.swift */,
+				04CEDBEA282E53F000F2287A /* UIToolbar+Chainable.swift */,
+				04CEDBEB282E53F000F2287A /* UITextView+Chainable.swift */,
+				04CEDBEC282E53F000F2287A /* UIBarButtonItem+Chainable.swift */,
+				04CEDBED282E53F000F2287A /* UIStackView+Chainable.swift */,
+				04CEDBEE282E53F000F2287A /* UICollectionView+Chainable.swift */,
+				04CEDBEF282E53F000F2287A /* UINavigationItem+Chainable.swift */,
+				04CEDBF0282E53F000F2287A /* UITextField+Chainable.swift */,
+				04CEDBF1282E53F000F2287A /* UITextInput+Chainable.swift */,
+				04CEDBF2282E53F000F2287A /* UITextInputTraits+Chainable.swift */,
+				04CEDBF3282E53F000F2287A /* UIScrollView+Chainable.swift */,
+				04CEDBF4282E53F000F2287A /* UICollectionViewCell+Chainable.swift */,
+				04CEDBF5282E53F000F2287A /* UITableView+Chainable.swift */,
+				04CEDBF6282E53F000F2287A /* UISearchBar+Chainable.swift */,
+				04CEDBF7282E53F000F2287A /* UIDatePicker+Chainable.swift */,
+				04CEDBF8282E53F000F2287A /* UISearchTextField+Chainable.swift */,
+				04CEDBF9282E53F000F2287A /* UITabBarItem+Chainable.swift */,
+				04CEDBFA282E53F000F2287A /* UIImageView+Chainable.swift */,
+				04CEDBFB282E53F000F2287A /* UIResponder+Chainable.swift */,
+				04CEDBFC282E53F000F2287A /* UIProgressView+Chainable.swift */,
+				04CEDBFD282E53F000F2287A /* UISwitch+Chainable.swift */,
+				04CEDBFE282E53F000F2287A /* UILabel+Chainable.swift */,
+				04CEDBFF282E53F000F2287A /* UIButton+Chainable.swift */,
+				04CEDC00282E53F000F2287A /* UIWindow+Chainable.swift */,
+				04CEDC01282E53F000F2287A /* UIGestureRecognizer+Chainable.swift */,
+				04CEDC02282E53F000F2287A /* UIBarItem+Chainable.swift */,
+				04CEDC03282E53F000F2287A /* UIControl+Chainable.swift */,
+				04CEDC04282E53F000F2287A /* UIActivityIndicatorView+Chainable.swift */,
+				04CEDC05282E53F000F2287A /* UIKeyInput+Chainable.swift */,
+				04CEDC06282E53F000F2287A /* UIView+Chainable.swift */,
+				04CEDC07282E53F000F2287A /* UISlider+Chainable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04CEDC08282E53F000F2287A /* StackKit */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDC09282E53F000F2287A /* Stacks */,
+				04CEDC13282E53F000F2287A /* UIViewBuilder.swift */,
+			);
+			path = StackKit;
+			sourceTree = "<group>";
+		};
+		04CEDC09282E53F000F2287A /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDC0A282E53F000F2287A /* Stacks */,
+				04CEDC0D282E53F000F2287A /* Scroll */,
+				04CEDC10282E53F000F2287A /* Helpers */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		04CEDC0A282E53F000F2287A /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDC0B282E53F000F2287A /* StackBuilder.swift */,
+				04CEDC0C282E53F000F2287A /* Stacks.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		04CEDC0D282E53F000F2287A /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDC0E282E53F000F2287A /* ScrollViewBuilder.swift */,
+				04CEDC0F282E53F000F2287A /* ScrollStacks.swift */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		04CEDC10282E53F000F2287A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDC11282E53F000F2287A /* Spacer.swift */,
+				04CEDC12282E53F000F2287A /* UIViewHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +530,9 @@
 			dependencies = (
 			);
 			name = "IOS Inject + Injectionlll";
+			packageProductDependencies = (
+				04D8E4012847D71E00C8CACB /* Inject */,
+			);
 			productName = "IOS Inject + Injectionlll";
 			productReference = 04CEDB79282E531800F2287A /* IOS Inject + Injectionlll.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +561,9 @@
 				Base,
 			);
 			mainGroup = 04CEDB70282E531800F2287A;
+			packageReferences = (
+				04D8E4002847D71E00C8CACB /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 04CEDB7A282E531800F2287A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +591,128 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEDC82282E53F100F2287A /* UISlider+Chainable.swift in Sources */,
+				04CEDC86282E53F100F2287A /* ScrollStacks.swift in Sources */,
+				04CEDC2D282E53F000F2287A /* ConstraintRelation.swift in Sources */,
+				04CEDC4D282E53F000F2287A /* UITabBarItemStateAppearance+Chainable.swift in Sources */,
+				04CEDC48282E53F000F2287A /* UIToolbarAppearance+Chainable.swift in Sources */,
+				04CEDC4B282E53F000F2287A /* UINavigationBarAppearance+Chainable.swift in Sources */,
+				04CEDC3F282E53F000F2287A /* UIControl+UIKitUtils.swift in Sources */,
+				04CEDC2B282E53F000F2287A /* ConstraintMakerEditable.swift in Sources */,
+				04CEDC3B282E53F000F2287A /* CGAffineTransform+UIKitUtils.swift in Sources */,
+				04CEDC38282E53F000F2287A /* ConstraintMakerRelatable.swift in Sources */,
+				04CEDC16282E53F000F2287A /* ConstraintMakerPrioritizable.swift in Sources */,
+				04CEDC62282E53F000F2287A /* UIStepper+Chainable.swift in Sources */,
+				04CEDC5A282E53F000F2287A /* UINavigationController+Chainable.swift in Sources */,
+				04CEDC54282E53F000F2287A /* UITabBarAppearance+Chainable.swift in Sources */,
+				04CEDC43282E53F000F2287A /* UIBarButtonItem+UIKitUtils.swift in Sources */,
+				04CEDC33282E53F000F2287A /* ConstraintRelatableTarget.swift in Sources */,
+				04CEDC80282E53F100F2287A /* UIKeyInput+Chainable.swift in Sources */,
+				04CEDC5B282E53F000F2287A /* UISearchController+Chainable.swift in Sources */,
+				04CEDC75282E53F000F2287A /* UIImageView+Chainable.swift in Sources */,
+				04CEDC59282E53F000F2287A /* UIAlertController+Chainable.swift in Sources */,
+				04CEDC30282E53F000F2287A /* ConstraintItem.swift in Sources */,
+				04CEDC61282E53F000F2287A /* UITableViewCell+Chainable.swift in Sources */,
+				04CEDC35282E53F000F2287A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				04CEDC27282E53F000F2287A /* ConstraintLayoutSupport.swift in Sources */,
+				04CEDC78282E53F000F2287A /* UISwitch+Chainable.swift in Sources */,
+				04CEDC18282E53F000F2287A /* ConstraintAttributes.swift in Sources */,
+				04CEDC76282E53F000F2287A /* UIResponder+Chainable.swift in Sources */,
+				04CEDC49282E53F000F2287A /* UIListContentConfiguration+Chainable.swift in Sources */,
+				04CEDC7A282E53F000F2287A /* UIButton+Chainable.swift in Sources */,
+				04CEDC64282E53F000F2287A /* UIPageControl+Chainable.swift in Sources */,
+				04CEDC55282E53F000F2287A /* UITableViewController+Chainable.swift in Sources */,
+				04CEDC2E282E53F000F2287A /* ConstraintLayoutGuideDSL.swift in Sources */,
+				04CEDC66282E53F000F2287A /* UITextView+Chainable.swift in Sources */,
+				04CEDC57282E53F000F2287A /* UIPageViewController+Chainable.swift in Sources */,
+				04CEDC14282E53F000F2287A /* ConstraintMultiplierTarget.swift in Sources */,
+				04CEDC5E282E53F000F2287A /* ChainableUIKit.swift in Sources */,
+				04CEDC2A282E53F000F2287A /* ConstraintOffsetTarget.swift in Sources */,
+				04CEDC46282E53F000F2287A /* UICollectionView+UIKitUtils.swift in Sources */,
+				04CEDC73282E53F000F2287A /* UISearchTextField+Chainable.swift in Sources */,
+				04CEDC1E282E53F000F2287A /* ConstraintMakerExtendable.swift in Sources */,
+				04CEDC58282E53F000F2287A /* UICollectionViewController+Chainable.swift in Sources */,
 				04CEDB81282E531800F2287A /* ViewController.swift in Sources */,
+				04CEDC4F282E53F000F2287A /* UIBarButtonItemAppearance+Chainable.swift in Sources */,
+				04CEDC6E282E53F000F2287A /* UIScrollView+Chainable.swift in Sources */,
+				04CEDC7B282E53F000F2287A /* UIWindow+Chainable.swift in Sources */,
+				04CEDC56282E53F000F2287A /* UISplitViewController+Chainable.swift in Sources */,
+				04CEDC71282E53F000F2287A /* UISearchBar+Chainable.swift in Sources */,
+				04CEDC6F282E53F000F2287A /* UICollectionViewCell+Chainable.swift in Sources */,
+				04CEDC85282E53F100F2287A /* ScrollViewBuilder.swift in Sources */,
+				04CEDC40282E53F000F2287A /* ControllerInformation.swift in Sources */,
+				04CEDC88282E53F100F2287A /* UIViewHelpers.swift in Sources */,
+				04CEDC20282E53F000F2287A /* ConstraintInsetTarget.swift in Sources */,
+				04CEDC6D282E53F000F2287A /* UITextInputTraits+Chainable.swift in Sources */,
+				04CEDC52282E53F000F2287A /* UIBarAppearance+Chainable.swift in Sources */,
+				04CEDC4A282E53F000F2287A /* UIBackgroundConfiguration+Chainable.swift in Sources */,
+				04CEDC53282E53F000F2287A /* UIBarButtonItemStateAppearance+Chainable.swift in Sources */,
+				04CEDC32282E53F000F2287A /* Debugging.swift in Sources */,
+				04CEDC2C282E53F000F2287A /* ConstraintMaker.swift in Sources */,
+				04CEDC15282E53F000F2287A /* LayoutConstraintItem.swift in Sources */,
+				04CEDC2F282E53F000F2287A /* ConstraintView+Extensions.swift in Sources */,
+				04CEDC28282E53F000F2287A /* Typealiases.swift in Sources */,
+				04CEDC3C282E53F000F2287A /* HapticFeedbackable.swift in Sources */,
+				04CEDC21282E53F000F2287A /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				04CEDC22282E53F000F2287A /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				04CEDC83282E53F100F2287A /* StackBuilder.swift in Sources */,
+				04CEDC77282E53F000F2287A /* UIProgressView+Chainable.swift in Sources */,
+				04CEDC7D282E53F100F2287A /* UIBarItem+Chainable.swift in Sources */,
+				04CEDC5F282E53F000F2287A /* UISegmentedControl+Chainable.swift in Sources */,
+				04CEDC7F282E53F100F2287A /* UIActivityIndicatorView+Chainable.swift in Sources */,
+				04CEDC47282E53F000F2287A /* ActionWrapper.swift in Sources */,
+				04CEDC60282E53F000F2287A /* UINavigationBar+Chainable.swift in Sources */,
+				04CEDC31282E53F000F2287A /* Constraint.swift in Sources */,
+				04CEDC25282E53F000F2287A /* ConstraintView.swift in Sources */,
+				04CEDC3D282E53F000F2287A /* UIImage+UIKitUtils.swift in Sources */,
+				04CEDC68282E53F000F2287A /* UIStackView+Chainable.swift in Sources */,
+				04CEDC44282E53F000F2287A /* UITableView+UIKitUtils.swift in Sources */,
+				04CEDC74282E53F000F2287A /* UITabBarItem+Chainable.swift in Sources */,
+				04CEDC1B282E53F000F2287A /* ConstraintInsets.swift in Sources */,
+				04CEDC39282E53F000F2287A /* UIView+UIKitUtils.swift in Sources */,
+				04CEDC84282E53F100F2287A /* Stacks.swift in Sources */,
+				04CEDC65282E53F000F2287A /* UIToolbar+Chainable.swift in Sources */,
+				04CEDC24282E53F000F2287A /* UILayoutSupport+Extensions.swift in Sources */,
+				04CEDC63282E53F000F2287A /* UITabBar+Chainable.swift in Sources */,
+				04CEDC6A282E53F000F2287A /* UINavigationItem+Chainable.swift in Sources */,
+				04CEDC89282E53F100F2287A /* UIViewBuilder.swift in Sources */,
+				04CEDC4C282E53F000F2287A /* UITabBarItemAppearance+Chainable.swift in Sources */,
 				04CEDB7D282E531800F2287A /* AppDelegate.swift in Sources */,
+				04CEDC45282E53F000F2287A /* UIBezierPath+ContinuousCorner.swift in Sources */,
+				04CEDC17282E53F000F2287A /* ConstraintDescription.swift in Sources */,
+				04CEDC6B282E53F000F2287A /* UITextField+Chainable.swift in Sources */,
+				04CEDC36282E53F000F2287A /* ConstraintDirectionalInsets.swift in Sources */,
+				04CEDC1A282E53F000F2287A /* ConstraintPriorityTarget.swift in Sources */,
+				04CEDC3A282E53F000F2287A /* UIViewController+UIKitUtils.swift in Sources */,
+				04CEDC29282E53F000F2287A /* ConstraintConstantTarget.swift in Sources */,
+				04CEDC5C282E53F000F2287A /* UIViewController+Chainable.swift in Sources */,
+				04CEDC1D282E53F000F2287A /* ConstraintDSL.swift in Sources */,
+				04CEDC41282E53F000F2287A /* UIDevice+UIKitUtils.swift in Sources */,
+				04CEDC6C282E53F000F2287A /* UITextInput+Chainable.swift in Sources */,
+				04CEDC42282E53F000F2287A /* UIGestureRecognizer+UIKitUtils.swift in Sources */,
+				04CEDC81282E53F100F2287A /* UIView+Chainable.swift in Sources */,
+				04CEDC7C282E53F100F2287A /* UIGestureRecognizer+Chainable.swift in Sources */,
+				04CEDC1F282E53F000F2287A /* ConstraintPriority.swift in Sources */,
+				04CEDC26282E53F000F2287A /* ConstraintLayoutGuide.swift in Sources */,
+				04CEDC50282E53F000F2287A /* UISwipeActionsConfiguration+Chainable.swift in Sources */,
+				04CEDC51282E53F000F2287A /* UIContextualAction+Chainable.swift in Sources */,
+				04CEDC4E282E53F000F2287A /* UIButtonConfiguration+Chainable.swift in Sources */,
+				04CEDC79282E53F000F2287A /* UILabel+Chainable.swift in Sources */,
+				04CEDC67282E53F000F2287A /* UIBarButtonItem+Chainable.swift in Sources */,
+				04CEDC5D282E53F000F2287A /* UITabBarController+Chainable.swift in Sources */,
+				04CEDC87282E53F100F2287A /* Spacer.swift in Sources */,
 				04CEDB7F282E531800F2287A /* SceneDelegate.swift in Sources */,
+				04CEDC3E282E53F000F2287A /* UIColor+UIKitUtils.swift in Sources */,
+				04CEDC7E282E53F100F2287A /* UIControl+Chainable.swift in Sources */,
+				04CEDC70282E53F000F2287A /* UITableView+Chainable.swift in Sources */,
+				04CEDC34282E53F000F2287A /* LayoutConstraint.swift in Sources */,
+				04CEDC37282E53F000F2287A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				04CEDC72282E53F000F2287A /* UIDatePicker+Chainable.swift in Sources */,
+				04CEDC23282E53F000F2287A /* ConstraintConfig.swift in Sources */,
+				04CEDC1C282E53F000F2287A /* ConstraintMakerFinalizable.swift in Sources */,
+				04D8E4042847D89A00C8CACB /* CustomView.swift in Sources */,
+				04CEDC19282E53F000F2287A /* ConstraintViewDSL.swift in Sources */,
+				04CEDC69282E53F000F2287A /* UICollectionView+Chainable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +872,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "chanon.IOS-Inject---Injectionlll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -358,6 +934,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04D8E4002847D71E00C8CACB /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04D8E4012847D71E00C8CACB /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D8E4002847D71E00C8CACB /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04CEDB71282E531800F2287A /* Project object */;
 }
